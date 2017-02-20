@@ -1,0 +1,38 @@
+<ion-view class="home-view" >
+  <!--<ion-nav-title>
+    <span> Hi {{user.name}}</span>
+    <!--<img ng-src="{{user.picture}}" style="width:5%; height:5%;"> 
+  </ion-nav-title>-->
+    <ion-nav-bar class="bar-positive" >
+  </ion-nav-bar>
+    <ion-header-bar align-title="center" class="bar-positive">
+  <div class="buttons"> 
+    <button class="button" ng-click="showLogOutMenu()">Log Out</button>
+  </div>
+  <h1 class="title">{{user.name}}</h1>
+  <div class="buttons">
+    <img ng-src="{{user.picture}}" style="border-radius:50%; height:280%; width:100§" >
+  </div>
+</ion-header-bar>
+  <ion-content>
+   <!--<div class="row">
+      <div class="col">
+     <h3 class="welcome-message">Hi {{user.name}}</h3>
+        <p class="welcome-message">You have logged in with Facebook</p>
+        <img ng-src="{{user.picture}}" style="width:5%; height:5%;"> 
+        <a class="button button-assertive button-block button-outline" ng-click="showLogOutMenu()">
+          Log Out
+        </a>
+      </div>
+    </div> -->
+     
+    
+      <map on-create="mapCreated(map)"></map>
+    
+
+  
+       </ion-content>
+  
+   
+      
+</ion-view>
